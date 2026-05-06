@@ -1,0 +1,7 @@
+[extension]
+name = "drift-remediator"
+description = "Auto-remediates Nuon drift-detected webhook events by reprovisioning sandboxes / redeploying components"
+
+[extension.auth]
+requires_token = true
+requires_org = false
